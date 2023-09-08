@@ -1,46 +1,65 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 .container {
-    width: 500px;
-    margin: 100px auto;
-    background: linear-gradient(rgba(207, 158, 241, 1), rgba(245, 127, 127, 1));
-    padding: 30px;
-    border-radius: 10px;
+  width: 500px;
+  margin: 100px auto;
+  background: linear-gradient(rgba(207, 158, 241, 1), rgba(245, 127, 127, 1));
+  padding: 30px;
+  border-radius: 10px;
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: "Arial", sans-serif;
-    font-size: 35px; 
-    font-weight: bolder;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Arial", sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
 }
 
 p {
-    font-family: "Arial", sans-serif;
-    font-size: 25px; 
-    font-weight: bold;
+  font-family: "Arial", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 img {
-    width: 100px;
-    border-radius: 50%;
+  width: 100px;
+  border-radius: 50%;
 }
 
 .data-testid {
-    display: none;
+  display: none;
 }
 
-#repoButton, span {
-    background: linear-gradient(rgba(169,80,230,1), rgba(245, 127, 127, 1));
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    border-radius: 15px;
-    display: inline-block;
-    margin-top: 10px;
-    font-family: "Arial", sans-serif;
-    font-size: 18px; 
-    font-weight: bold;
+#repoButton,
+span {
+  background: linear-gradient(rgba(169, 80, 230, 1), rgba(245, 127, 127, 1));
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: 10px;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 250px;
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+  img {
+    width: 70px;
+  }
+  #repoButton,
+  span {
+    font-size: 10px;
+  }
 }
