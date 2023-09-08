@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+.container {
+    width: 500px;
+    margin: 100px auto;
+    background: linear-gradient(rgba(207, 158, 241, 1), rgba(245, 127, 127, 1));
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Arial", sans-serif;
+    font-size: 32px; 
+    font-weight: bolder;
+}
+
+p {
+    font-family: "Arial", sans-serif;
+    font-size: 18px; 
+    font-weight: bold;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.data-testid {
+    display: none;
+}
+
+#repoButton, span {
+    background: linear-gradient(rgba(169,80,230,1), rgba(245, 127, 127, 1));
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 18px; 
+    font-weight: bold;
+}

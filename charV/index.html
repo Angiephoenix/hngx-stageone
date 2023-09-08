@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal and Real-Time Data Attributes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 id="slackUserName" data-testid="angieObiesie">Angie Obiesie</h1>
+
+      <div>
+        <img
+          id="slackDisplayImage"
+          src="./assets/Officeshots.jpg"
+          alt="angieObiesie"
+          data-testid="slackDisplayImage"
+        />
+      </div>
+
+      <p>
+        Current Day of the Week: 
+        <span data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek"></span>
+      </p>
+      <p>
+        Current UTC Time:
+        <span data-testid="currentUTCTime" id="currentUTCTime"></span>
+      </p>
+      <p>Track: <span data-testid="myTrack">Frontend</span></p>
+      <p>
+        GitHub Repo:
+        <a
+          href="https://github.com/Angiephoenix/hngx-stageone"
+          data-testid="githubURL"
+          id="repoButton"
+          >Click Me</a
+        >
+      </p>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
